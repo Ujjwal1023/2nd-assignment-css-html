@@ -1,0 +1,34 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.main-body{
+  display: flex;
+  width: 100vw;
+justify-content:space-between;
+flex-wrap:wrap-reverse;
+align-items: center;
+border: 5px solid green;
+}
+.item{
+  width:300px;
+  height:300px;
+  border-radius: 5px;
+  align-items: center;
+}
+.item-1{
+  background-color: blue;
+  order:4;
+}
+.item-2{
+  background-color: green;
+  order:3;
+}
+.item-3{
+  background-color:red;
+  order:2;
+}
+.item-4{
+  background-color:gray;
+  order:1;
+}
